@@ -1,4 +1,4 @@
-# Template-Engine
+# Team-Profile-Generator
 [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
 
 ## Description
@@ -51,7 +51,7 @@ npm test
 
 ## Links
 
-[Github Repository](https://github.com/zackapotamus/Template-Engine)
+[Github Repository](https://github.com/zackapotamus/Team-Profile-Generator)
 
 ## Questions
 
