@@ -17,6 +17,8 @@ This is a command line interface application that prompts the user for informati
 
 * [Tests](#tests)
 
+* [Links](#links)
+
 * [Questions](#questions)
 
 ## Installation
@@ -46,6 +48,10 @@ To run tests, please run the following command:
 ```
 npm test
 ```
+
+## Links
+
+[Github Repository](https://github.com/zackapotamus/Template-Engine)
 
 ## Questions
 
