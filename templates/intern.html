@@ -1,13 +1,17 @@
-<div class="card employee-card">
-    <div class="card-header">
-        <h2 class="card-title">{{ name }}</h2>
-        <h3 class="card-title"><i class="fas fa-user-graduate mr-2"></i>{{ role }}</h3>
-    </div>
-    <div class="card-body">
-        <ul class="list-group">
-            <li class="list-group-item">ID: {{ id }}</li>
-            <li class="list-group-item">Email: <a href="mailto:{{ email }}">{{ email }}</a></li>
-            <li class="list-group-item">School: {{ school }}</li>
-        </ul>
+<div class="column is-full-mobile is-half-tablet is-one-third-desktop is-one-quarter-widescreen is-one-quarter-fullhd">
+    <div class="card">
+        <div class="card-header has-background-light">
+            <h2 class="card-header-title is-size-4">{{ name }}</h2>
+        </div>
+        <div class="card-header has-background-light">
+            <h3 class="card-header-title has-text-weight-light is-size-4" style="padding-top: 0px;"><i class="fas fa-user-graduate" style="margin-right: 0.5em;"></i>{{ role }}</h3>
+        </div>
+        <div class="card-content">
+            <ul class="list is-hoverable">
+                <li class="list-item has-text-weight-medium">ID: {{ id }}</li>
+                <li class="list-item has-text-weight-medium">Email: <a href="mailto:{{ email }}">{{ email }}</a></li>
+                <li class="list-item has-text-weight-medium">School: {{ school }}</li>
+            </ul>
+        </div>
     </div>
 </div>
