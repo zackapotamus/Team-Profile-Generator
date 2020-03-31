@@ -103,3 +103,5 @@ dist
 # TernJS port file
 .tern-port
 Homework-README.md
+Assets/
+output/team.html
